@@ -1,0 +1,13 @@
+{
+  "name": "ethersJs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "dependencies": {
+    "ethers": "^6.12.1"
+  }
+}
