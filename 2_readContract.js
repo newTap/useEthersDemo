@@ -5,6 +5,8 @@ const provider = new ethers.JsonRpcProvider(`https://mainnet.infura.io/v3/bf80bb
 // contract对象分为两类，一类是只读，一类是可写。
 // 只读只能读取合约上的信息，即调用合约的"view"与"pure"函数。参数分别是合约地址，合约abi和provider变量（只读）。
 // const contract = new ethers.Contract(`address`, `abi`, `provider`);
+// 将可读合约转换为可写合约：
+// const contract2 = contract.connect(signer)
 // 可写可以向合约写入信息以及执行交易。参数分别是合约abi和signer变量
 // const contract = new ethers.Contract(`address`, `abi`, `signer`);
 
